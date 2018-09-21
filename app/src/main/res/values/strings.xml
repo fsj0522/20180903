@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">个人信息</string>
+    <string name="girl">女</string>
+    <string name="boy">男</string>
+    <string name="ip">ip：</string>
+    <string name="location">坐标位置：%1$.2f,%1$.2f</string>
+    <string name="commonDialog">普通对话框</string>
+    <string name="multiialog">多选对话框</string>
+    <string name="ItemDialog">列表对话框</string>
+    <string name="SingleDialog">单选列表对话框</string>
+    <string name="ProgressBarDialog">进度条对话框</string>
+    <string name="ReadingDialog">读取中对话框</string>
+    <string name="DefintionSelfDialog">自定义弹框</string>
+    <string name="InputDialog">输入对话框</string>
+
+    <string name="activitydemo_title">Activity应用</string>
+    <string name="btn_1">登陆</string>
+    <string name="btn_2">个人信息</string>
+    <string name="btn_3">传递简单值1</string>
+    <string name="btn_4">传递简单值2</string>
+    <string name="btn_5">传递数组</string>
+    <string name="btn_6">传递对象</string>
+    <string name="btn_7">传递对象数据</string>
+    <string name="btn_8">传递并调用</string>
+    <string name="btn_9">打电话</string>
+    <string name="btn_10">发短信</string>
+    <string name="btn_11">发送邮件</string>
+    <string name="btn_12">调用网页</string>
+    <string name="btn_13">启动调用</string>
+    <string name="btn_14">启动定时器</string>
+    <string name="btn_15">显示闹钟</string>
+    <string name="btn_16">Activity生命周期</string>
+</resources>

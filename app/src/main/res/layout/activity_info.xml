@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/img_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="姓名："
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="性别："
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_teenager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:checked="true"
+                android:text="@string/boy"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/rb_lolita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="@string/girl"
+                android:textSize="20sp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我喜欢的专业："
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/cnb_java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="java"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/cnb_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英语"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/cnb_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高数"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/cnb_chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语文"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="确认"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ip"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/et_ip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:inputType="number"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_showIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="192.168.1.1"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:textSize="20sp"/>
+</LinearLayout>
