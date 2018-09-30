@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pc.myapplication">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,13 +24,36 @@
             android:name=".WeatherActivity"
             android:theme="@style/NoActionBar" />
         <activity android:name=".ActivityDeomActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+
+
+            <!-- <data -->
+            <!-- android:host="edu.niit.android.demo" -->
+            <!-- android:path="/target" -->
+            <!-- android:port="8888" -->
+            <!-- android:scheme="niit" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".IntentActivity" />
+        <activity android:name=".FSJActivity" />
+        <activity android:name=".FSJQuestionActivity" />
+        <activity
+            android:name=".fragment.WeixinActivity"
+            android:theme="@style/NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntentActivity"></activity>
     </application>
 
 </manifest>

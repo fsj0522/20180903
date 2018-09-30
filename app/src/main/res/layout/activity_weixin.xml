@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.WeixinActivity">
+
+    <TextView
+        android:id="@+id/my_toolbar"
+        android:text="微信"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/weixin_title_text" >
+    </TextView>
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/my_toolbar"-->
+        <!--app:title="微信"-->
+        <!--app:titleTextColor="@color/text_white"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--style="@style/weixin_title_text" >-->
+    <!--</android.support.v7.widget.Toolbar>-->
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/my_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="微信"-->
+            <!--style="@style/weixin_title_text"/>-->
+    <!--</android.support.v7.widget.Toolbar>-->
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#ffffff"></LinearLayout>
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/btn_weixin"
+            android:text="微信"
+            android:drawableTop="@drawable/tab_menu_weixin"
+            style="@style/tab_weixin_menu_item"/>
+        <RadioButton
+            android:id="@+id/btn_address"
+            android:text="通讯录"
+            android:drawableTop="@drawable/tab_menu_address"
+            style="@style/tab_weixin_menu_item"/>
+        <RadioButton
+            android:id="@+id/btn_find"
+            android:text="发现"
+            android:drawableTop="@drawable/tab_menu_find"
+            style="@style/tab_weixin_menu_item"/>
+        <RadioButton
+            android:id="@+id/btn_my"
+            android:text="我"
+            android:drawableTop="@drawable/tab_menu_my"
+            style="@style/tab_weixin_menu_item"/>
+    </RadioGroup>
+</LinearLayout>

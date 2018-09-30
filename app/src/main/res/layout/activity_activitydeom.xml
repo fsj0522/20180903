@@ -78,7 +78,7 @@
             android:id="@+id/bt_p5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:text="@string/btn_5"
             android:textSize="20sp"
             android:onClick="onClick"/>
@@ -87,7 +87,7 @@
             android:id="@+id/bt_p6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:text="@string/btn_6"
             android:textSize="20sp"
             android:onClick="onClick"/>
@@ -96,7 +96,7 @@
             android:id="@+id/bt_p7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
+            android:layout_weight="4"
             android:text="@string/btn_7"
             android:textSize="20sp"
             android:onClick="onClick"/>
@@ -139,7 +139,7 @@
             android:id="@+id/bt_p11"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.2"
+            android:layout_weight="1.4"
             android:text="@string/btn_11"
             android:textSize="20sp"
             android:onClick="onClick"/>
@@ -148,7 +148,7 @@
             android:id="@+id/bt_p12"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.2"
+            android:layout_weight="1.4"
             android:text="@string/btn_12"
             android:textSize="20sp"
             android:onClick="onClick"/>
@@ -174,7 +174,7 @@
             android:id="@+id/bt_p14"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.2"
             android:text="@string/btn_14"
             android:textSize="20sp"
             android:onClick="onClick"/>

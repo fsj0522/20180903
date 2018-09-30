@@ -270,32 +270,5 @@ public class InfoActivity extends AppCompatActivity implements View.OnClickListe
         manager.notify(1, builder.build());
     }
 
-    //加载菜单
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.activity_menu,menu);
-//        menu.add(Menu.NONE,1,Menu.NONE,"文件"); //动态加载
-//        //创建子菜单
-//        SubMenu subMenu=menu.addSubMenu(Menu.NONE,100,Menu.NONE,"字号设置");
-//        subMenu.add(Menu.NONE,101,Menu.NONE,"8号");
-//        subMenu.add(Menu.NONE,102,Menu.NONE,"12号");
-//        return super.onCreateOptionsMenu(menu);
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        switch (item.getItemId()){
-//            case R.id. :
-//                search();
-//                break;
-//            case 1:
-//                break;
-//            case 101:
-//                break;
-//            case 102:
-//                break;
-//        }
-//        return true;
-//    }
 
 }
